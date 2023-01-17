@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  fullText = "Welcome to Clever CottonMouth!";
+  fullText = `${'Welcome to Clever CottonMouth!'}
+  `;
   typedText = "";
 
   constructor() {
@@ -18,5 +19,9 @@ export class HomeComponent {
         clearInterval(typing);
       }
     }, 100);
+  }
+
+  downloadResume() {
+    console.log("Download Resume");
   }
 }

@@ -2244,11 +2244,12 @@ background-size: 10px;
   transform: translate(-50%, -50%);
 }
 
-.cl-home-logo{
+.cl-home-btn{
   position: absolute;
-  color: rebeccapurple;
-  margin-top: 100px;
-  justify-content: center;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 
