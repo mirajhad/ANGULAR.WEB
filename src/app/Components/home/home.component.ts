@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  fullText = "Welcome to Clever CottonMouth!";
+  typedText = "";
 
+  constructor() {
+    let i = 0;
+    const typing = setInterval(() => {
+      this.typedText += this.fullText[i];
+      i++;
+      if (i === this.fullText.length) {
+        clearInterval(typing);
+      }
+    }, 100);
+  }
 }
