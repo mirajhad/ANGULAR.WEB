@@ -2229,7 +2229,7 @@ background-size: 10px;
 
 /* MY STYLES */
 .cl-home{
-  background-image: url('../images/universe.jpg');
+  background-image: url('../images/rainbow-vortex.svg');
   background-size: cover;
   height: 600px;
   background-repeat: no-repeat;
@@ -2249,6 +2249,15 @@ background-size: 10px;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+}
+
+.footer{
+  background-image: url('../../assets/images/ft.svg');
+  /* background-repeat:no-repeat ; */
+
+  width: 100%;
+  height: auto;
 
 }
 
