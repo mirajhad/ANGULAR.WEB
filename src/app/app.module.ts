@@ -9,6 +9,11 @@ import { SidemenuComponent } from './Components/Common/sidemenu/sidemenu.compone
 import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { LoginComponent } from './Components/login/login.component';
 import { HomeComponent } from './Components/home/home.component';
+import { BlogComponent } from './Components/blog/blog.component';
+import { ContactComponent } from './Components/contact/contact.component';
+import { AboutComponent } from './Components/about/about.component';
+import { ProjectComponent } from './Components/project/project.component';
+import { SkillsComponent } from './Components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { HomeComponent } from './Components/home/home.component';
     SidemenuComponent,
     DashboardComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    BlogComponent,
+    ContactComponent,
+    AboutComponent,
+    ProjectComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

@@ -5,7 +5,7 @@ nav {
 
 }
 
-nav > a {
+nav > button {
   flex: 1;
   background-color: #333;
   color: #fff;
@@ -16,8 +16,8 @@ nav > a {
   transition: all 0.5s ease-out;
 }
 
-nav > a:hover,
-nav > a:focus {
+nav > button:hover,
+nav > button:focus {
   background-color: #fff;
   color: #333;
 }

@@ -24,4 +24,12 @@ export class HomeComponent {
   downloadResume() {
     console.log("Download Resume");
   }
+
+  redirect=(event:any)=>{
+    console.log("Redirecting to the contact page", event.target.innerText);
+    // console.log("Redirecting to the contact page");
+    // if(event.target.innerText === "Contact"){
+
+    // }
+  }
 }
