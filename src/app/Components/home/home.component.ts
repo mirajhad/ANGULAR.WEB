@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -10,7 +10,10 @@ export class HomeComponent {
   `;
   typedText = "";
 
-  constructor() {
+  constructor(
+    private router: Router
+  ) {
+
     let i = 0;
     const typing = setInterval(() => {
       this.typedText += this.fullText[i];
@@ -28,8 +31,8 @@ export class HomeComponent {
   redirect=(event:any)=>{
     console.log("Redirecting to the contact page", event.target.innerText);
     // console.log("Redirecting to the contact page");
-    // if(event.target.innerText === "Contact"){
-
+    // if(event.target.innerText == "About"){
+       this.router.navigate(['/about']);
     // }
   }
 }
