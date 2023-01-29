@@ -29,10 +29,10 @@ export class HomeComponent {
   }
 
   redirect=(event:any)=>{
-    console.log("Redirecting to the contact page", event.target.innerText);
+    // console.log("Redirecting to the contact page", event.target.innerText);
     // console.log("Redirecting to the contact page");
     // if(event.target.innerText == "About"){
-       this.router.navigate(['/about']);
+       this.router.navigate(['/login']);
     // }
   }
 }
