@@ -28,11 +28,14 @@ export class HomeComponent {
     console.log("Download Resume");
   }
 
-  redirect=(event:any)=>{
+  redirect=()=>{
     // console.log("Redirecting to the contact page", event.target.innerText);
     // console.log("Redirecting to the contact page");
     // if(event.target.innerText == "About"){
+      console.log("Redirecting to the about page");
        this.router.navigate(['/login']);
+      // window.location.href = "http://localhost:4200/login";
+
     // }
   }
 }
